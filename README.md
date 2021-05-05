@@ -346,20 +346,22 @@ public class ShellSortAlgorithm {
 - n의 값을 계속 늘려면 측정된 시간을 그래프를 나타낸것이다.
 - ms1은 내림차순, ms2는 랜덤, ms3은 거의 정렬된 배열이다.
 
-![image-20210505203450184](C:\Users\HelloGeun\AppData\Roaming\Typora\typora-user-images\image-20210505203450184.png)
+![image](https://user-images.githubusercontent.com/80590172/117136984-0ef4b900-ade4-11eb-97c3-a504869c9282.png)
 
 - 램덤으로 한 경우가 나머지 경우보다 더 시간이 오래걸린다.
 
-![image-20210505203504714](C:\Users\HelloGeun\AppData\Roaming\Typora\typora-user-images\image-20210505203504714.png)
+![image](https://user-images.githubusercontent.com/80590172/117137008-1916b780-ade4-11eb-9b3e-1baeba655b4b.png)
 
 - 3가지 모두 비슷하게 나온다.
 
-![image-20210505203514583](C:\Users\HelloGeun\AppData\Roaming\Typora\typora-user-images\image-20210505203514583.png)
+
+![image](https://user-images.githubusercontent.com/80590172/117137057-26cc3d00-ade4-11eb-95da-b8a60303bf0e.png)
 
 - 버블정렬과 선택정렬과 달리 n값을 더 크게 하였다. n의 값이 작으면 시간이 0ms로 나오기 때문에 시간 측정을 할 수 없다.
 - 거의 정렬된 배열에 경우 버블정렬과 선택정렬보다 엄청 빠르다는 것을 알 수 있다.
 
-![image-20210505203524429](C:\Users\HelloGeun\AppData\Roaming\Typora\typora-user-images\image-20210505203524429.png)
+![image](https://user-images.githubusercontent.com/80590172/117137081-2e8be180-ade4-11eb-9eaf-0934fc13c7f8.png)
+
 
 - 삽입정렬과 같은 n값들을 사용하여 측정하였다.  n의 값이 작으면 시간이 0ms로 나오기 때문에 시간 측정을 할 수 없다.
 
