@@ -63,7 +63,10 @@
 
 3. **InsertionSort**
 
-   - 배열을 정렬된 부분과 정렬 안된 부분으로 나누고, 정렬 안된 부분의 가장 왼쪽 원소를 정렬된 부분의 **적절한 위치**에 **삽입**하여 정렬한다. 그러한 과정을 반복한다.<img src="C:\Users\HelloGeun\AppData\Roaming\Typora\typora-user-images\image-20210505194324746.png" alt="image-20210505194324746" style="zoom:50%;" />
+   - 배열을 정렬된 부분과 정렬 안된 부분으로 나누고, 정렬 안된 부분의 가장 왼쪽 원소를 정렬된 부분의 **적절한 위치**에 **삽입**하여 정렬한다. 그러한 과정을 반복한다.
+   
+   ![image](https://user-images.githubusercontent.com/80590172/117137305-77dc3100-ade4-11eb-8f13-c5afde364517.png)
+
    - 단, 정렬은 배열의 첫 번째 원소만이 정렬된 부분에 있는 상태에서 정렬을 시작한다.
    - 입력: 크기가 n인 배열 a, 출력: 정렬된 배열 a
    - 코드
@@ -83,9 +86,8 @@
            }
        }
    ```
-
-   <img src="C:\Users\HelloGeun\AppData\Roaming\Typora\typora-user-images\image-20210505195608975.png" alt="image-20210505195608975" style="zoom:60%;" />
-
+  ![image](https://user-images.githubusercontent.com/80590172/117137334-8296c600-ade4-11eb-96fe-246def50a284.png)
+  
 4. **ShellSort**
 
    - 앞에 소개한 정렬들의 단점을 보완하기 위함이다.
